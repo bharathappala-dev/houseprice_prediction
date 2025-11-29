@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: housepriceai
+    env: static
+    repo: https://github.com/bharathappala-dev/houseprice_prediction
+    branch: main
+    buildCommand: "npm install && npm run build"
+    publishPath: "dist"
+    root: "."
