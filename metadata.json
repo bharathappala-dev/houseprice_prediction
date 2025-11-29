@@ -1,0 +1,5 @@
+{
+  "name": "HousePriceAI",
+  "description": "A powerful linear regression dashboard for house price prediction. Upload datasets, train models in the browser.",
+  "requestFramePermissions": []
+}
